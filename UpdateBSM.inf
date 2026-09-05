@@ -1,0 +1,22 @@
+
+[update]
+newversion=2.0.0.0
+descr=A new version is available. Would you like to update?
+localversion={EXEPATH}
+
+[files]
+count=1
+
+[file1]
+url=https://cuongpms.github.io/BSM_Update/UpdateBSM.cab
+newversion=2.0.0.0
+localversion={EXEPATH}
+compressed=0
+mandatory=1
+hidden=1
+
+[application]
+appupdate=1
+silentrestart=1
+appname=BEP Sales Mix_ AD (Full Template).exe
+appcomps=UpdateBSM.cab
